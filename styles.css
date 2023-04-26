@@ -74,5 +74,45 @@
     width: 100%;
   }
 
+  /* styles */
+label {
+    font: 3rem "handwriting", sans-serif;
+}  
 
+
+h2{
+    font: 5rem "handwriting", sans-serif;
+}
   
+input{
+    font: 2rem "handwriting", sans-serif;
+    color: blue;
+    background: none;
+    border: none;
+  }
+  
+  select{
+    font: 2rem "handwriting", sans-serif;
+    background: rgba(211, 211, 211, 0.8);
+    border: none;
+  }
+  
+  button{
+    margin-top: 20px;
+    font: 2rem "handwriting", sans-serif;
+    background: none;
+    border: none;
+    width: 50%;
+  }
+  
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
+  
+  button:hover{
+    background: rgba(211, 211, 211, 0.8);
+    cursor: pointer;
+    color: blue;
+    border-radius: 5px;
+  }
