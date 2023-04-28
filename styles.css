@@ -116,3 +116,6 @@ input{
     color: blue;
     border-radius: 5px;
   }
+
+  input:invalid { color: red; }
+
